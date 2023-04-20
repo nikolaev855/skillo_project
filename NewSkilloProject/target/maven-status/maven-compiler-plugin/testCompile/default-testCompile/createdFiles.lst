@@ -1,0 +1,14 @@
+pages\BasePage.class
+pages\PostModal.class
+tests\InvalidUserLogin.class
+pages\Header.class
+pages\LoginPage.class
+tests\PostsTest.class
+pages\HomePage.class
+pages\NewPostPage.class
+tests\BaseTest.class
+pages\RegisterPage.class
+tests\LoginTest.class
+pages\ProfilePage.class
+tests\RegisterTest.class
+tests\LoginAndLogout.class

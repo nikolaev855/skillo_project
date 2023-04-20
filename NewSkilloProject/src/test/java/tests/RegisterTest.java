@@ -32,7 +32,7 @@ public class RegisterTest {
     @DataProvider(name = "users")
     public Object[][] getUsers(){
         return new Object[][]{
-                {"sluchaen29", "sluchaen29@abv.bg", "parola123"},
+                {"sluchaen32", "sluchaen32@abv.bg", "parola123"},
         };
 
     }

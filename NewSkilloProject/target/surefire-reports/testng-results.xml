@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-20T19:15:27 EEST" name="Suite" finished-at="2023-04-20T19:16:02 EEST" duration-ms="34618">
+    <groups>
+    </groups>
+    <test started-at="2023-04-20T19:15:27 EEST" name="Test" finished-at="2023-04-20T19:16:02 EEST" duration-ms="34618">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.LoginTest@52bf72b5]" started-at="2023-04-20T19:15:27 EEST" name="setupSuite" finished-at="2023-04-20T19:15:27 EEST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.LoginTest@52bf72b5]" started-at="2023-04-20T19:15:40 EEST" name="setupDriver" finished-at="2023-04-20T19:15:41 EEST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@52bf72b5]" started-at="2023-04-20T19:15:41 EEST" name="loginTest" data-provider="users" finished-at="2023-04-20T19:15:47 EEST" duration-ms="5947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[auto_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[auto_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[auto_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@52bf72b5]" started-at="2023-04-20T19:15:47 EEST" name="tearDown" finished-at="2023-04-20T19:15:47 EEST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.InvalidUserLogin">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.InvalidUserLogin@12468a38]" started-at="2023-04-20T19:15:27 EEST" name="setupSuite" finished-at="2023-04-20T19:15:27 EEST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.InvalidUserLogin@12468a38]" started-at="2023-04-20T19:15:27 EEST" name="setupDriver" finished-at="2023-04-20T19:15:29 EEST" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="invalidUserLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.InvalidUserLogin@12468a38]" started-at="2023-04-20T19:15:29 EEST" name="invalidUserLogin" data-provider="users" finished-at="2023-04-20T19:15:34 EEST" duration-ms="5209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[greshen13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parola]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InvalidUserLogin@12468a38]" started-at="2023-04-20T19:15:34 EEST" name="tearDown" finished-at="2023-04-20T19:15:34 EEST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.InvalidUserLogin -->
+      <class name="tests.LoginAndLogout">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.LoginAndLogout@6d763516]" started-at="2023-04-20T19:15:27 EEST" name="setupSuite" finished-at="2023-04-20T19:15:27 EEST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.LoginAndLogout@6d763516]" started-at="2023-04-20T19:15:34 EEST" name="setupDriver" finished-at="2023-04-20T19:15:35 EEST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginLogout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginAndLogout@6d763516]" started-at="2023-04-20T19:15:35 EEST" name="loginLogout" data-provider="users" finished-at="2023-04-20T19:15:40 EEST" duration-ms="5628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[auto_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[auto_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[auto_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginAndLogout@6d763516]" started-at="2023-04-20T19:15:40 EEST" name="tearDown" finished-at="2023-04-20T19:15:40 EEST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginAndLogout -->
+      <class name="tests.RegisterTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.RegisterTest@515aebb0]" started-at="2023-04-20T19:15:27 EEST" name="setupSuite" finished-at="2023-04-20T19:15:27 EEST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.RegisterTest@515aebb0]" started-at="2023-04-20T19:15:55 EEST" name="setupDriver" finished-at="2023-04-20T19:15:56 EEST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="registerTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RegisterTest@515aebb0]" started-at="2023-04-20T19:15:56 EEST" name="registerTest" data-provider="users" finished-at="2023-04-20T19:16:01 EEST" duration-ms="5620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sluchaen30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sluchaen30@abv.bg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[parola123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@515aebb0]" started-at="2023-04-20T19:16:01 EEST" name="tearDown" finished-at="2023-04-20T19:16:02 EEST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterTest -->
+      <class name="tests.PostsTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.PostsTest@37afeb11]" started-at="2023-04-20T19:15:26 EEST" name="setupSuite" finished-at="2023-04-20T19:15:27 EEST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.PostsTest@37afeb11]" started-at="2023-04-20T19:15:47 EEST" name="setupDriver" finished-at="2023-04-20T19:15:48 EEST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="testCreatePost(java.lang.String,java.lang.String,java.io.File,java.lang.String)[pri:0, instance:tests.PostsTest@37afeb11]" started-at="2023-04-20T19:15:48 EEST" name="testCreatePost" data-provider="getData" finished-at="2023-04-20T19:15:55 EEST" duration-ms="6674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[auto_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[auto_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[src\test\java\upload\pretty.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[caption]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePost -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PostsTest@37afeb11]" started-at="2023-04-20T19:15:55 EEST" name="tearDown" finished-at="2023-04-20T19:15:55 EEST" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePost status=SUCCESS method=PostsTest.testCreatePost(java.lang.String,java.lang.String,java.io.File,java.lang.String)[pri:0, instance:tests.PostsTest@37afeb11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PostsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

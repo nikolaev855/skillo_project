@@ -23,11 +23,14 @@ import static org.apache.commons.io.FileUtils.cleanDirectory;
 public class BaseTest {
     protected WebDriver driver;
     public static final String TEST_RESOURCES_DIR = "src" + File.separator + "test" + File.separator;
-    public static final String DOWNLOAD_DIR = TEST_RESOURCES_DIR.concat("download" + File.separator);
     public static final String SCREENSHOT_DIR = TEST_RESOURCES_DIR.concat("screenshots" + File.separator);
+    public static final String REPORTS_DIR = TEST_RESOURCES_DIR.concat("reports" + File.separator);
     @BeforeSuite
-    public void setupSuite(){
-        WebDriverManager.chromedriver().setup();}
+    public void setupSuite() throws IOException {
+        cleanDirectory(REPORTS_DIR);
+        cleanDirectory(SCREENSHOT_DIR);
+        WebDriverManager.chromedriver().setup();
+    }
     @BeforeMethod
     public void setupDriver(){
         ChromeOptions options = new ChromeOptions();
@@ -74,4 +77,5 @@ public class BaseTest {
             System.out.printf("Unable to delete the files in Directory:%s%n", directoryPath);
         }
     }
+
 }

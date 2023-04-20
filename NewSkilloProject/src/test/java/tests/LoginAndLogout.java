@@ -37,7 +37,7 @@ public class LoginAndLogout {
 
     }
     @Test(dataProvider = "users")
-    public void loginTest(String usernameOrEmail, String password, String username){
+    public void loginLogout(String usernameOrEmail, String password, String username){
         System.out.println("1.Navigate to homepage");
         HomePage homePage = new HomePage(driver);
         homePage.navigate();

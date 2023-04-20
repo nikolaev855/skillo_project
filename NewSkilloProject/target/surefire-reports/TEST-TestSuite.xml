@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="35.724" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\nikola.georgiev\.cache\selenium\chromedriver\win32\111.0.5563.64\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\nikola.georgiev\Desktop\Official Automation Project\NewSkilloProject\target\test-classes;C:\Users\nikola.georgiev\Desktop\Official Automation Project\NewSkilloProject\target\classes;C:\Users\nikola.georgiev\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\nikola.georgiev\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\nikola.georgiev\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.0\selenium-java-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.0\selenium-api-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.0\selenium-chrome-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\nikola.georgiev\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.0\selenium-chromium-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.0\selenium-json-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.8.0\selenium-devtools-v107-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.0\selenium-devtools-v108-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.0\selenium-devtools-v109-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.0\selenium-devtools-v85-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.0\selenium-edge-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.0\selenium-firefox-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.0\selenium-http-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.0\selenium-ie-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.0\selenium-remote-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\nikola.georgiev\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\nikola.georgiev\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\nikola.georgiev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nikola.georgiev\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\nikola.georgiev\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\nikola.georgiev\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\nikola.georgiev\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\nikola.georgiev\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.0\selenium-manager-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.0\selenium-safari-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.0\selenium-support-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\nikola.georgiev\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\nikola.georgiev\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\nikola.georgiev\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\nikola.georgiev\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\nikola.georgiev\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\nikola.georgiev\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\nikola.georgiev\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\nikola.georgiev\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\nikola.georgiev\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\nikola.georgiev\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\nikola.georgiev\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\nikola.georgiev\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\nikola.georgiev\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\nikola.georgiev\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\nikola.georgiev\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\nikola.georgiev\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\nikola.georgiev\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\nikola.georgiev\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Sofia"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\jdk\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\nikola.georgiev\AppData\Local\Temp\surefire9066672091850249567\surefirebooter-20230420191526239_3.jar C:\Users\nikola.georgiev\AppData\Local\Temp\surefire9066672091850249567 2023-04-20T19-15-25_973-jvmRun1 surefire-20230420191526239_1tmp surefire_0-20230420191526239_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\nikola.georgiev\Desktop\Official Automation Project\NewSkilloProject\target\test-classes;C:\Users\nikola.georgiev\Desktop\Official Automation Project\NewSkilloProject\target\classes;C:\Users\nikola.georgiev\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\nikola.georgiev\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\nikola.georgiev\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.0\selenium-java-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.0\selenium-api-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.0\selenium-chrome-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\nikola.georgiev\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.0\selenium-chromium-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.0\selenium-json-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.8.0\selenium-devtools-v107-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.0\selenium-devtools-v108-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.0\selenium-devtools-v109-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.0\selenium-devtools-v85-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.0\selenium-edge-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.0\selenium-firefox-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.0\selenium-http-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.0\selenium-ie-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.0\selenium-remote-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\nikola.georgiev\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\nikola.georgiev\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\nikola.georgiev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nikola.georgiev\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\nikola.georgiev\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\nikola.georgiev\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\nikola.georgiev\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\nikola.georgiev\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\nikola.georgiev\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.0\selenium-manager-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.0\selenium-safari-driver-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.0\selenium-support-4.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\nikola.georgiev\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\nikola.georgiev\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\nikola.georgiev\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\nikola.georgiev\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\nikola.georgiev\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\nikola.georgiev\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\nikola.georgiev\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\nikola.georgiev\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\nikola.georgiev\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\nikola.georgiev\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\nikola.georgiev\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\nikola.georgiev\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\nikola.georgiev\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\nikola.georgiev\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\nikola.georgiev\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\nikola.georgiev\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\nikola.georgiev\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\nikola.georgiev\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\nikola.georgiev\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\nikola.georgiev\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\nikola.georgiev"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\jdk\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\nikola.georgiev\Desktop\Official Automation Project\NewSkilloProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\nikola.georgiev\AppData\Local\Temp\surefire9066672091850249567\surefirebooter-20230420191526239_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-86"/>
+    <property name="user.name" value="NikolaGeorgiev"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\nikola.georgiev\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\NIKOLA~1.GEO\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\nikola.georgiev\Desktop\Official Automation Project\NewSkilloProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\jdk\jdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\jdk\jdk-17.0.2;C:\mvn\apache-maven-3.8.7\bin;C:\Users\nikola.georgiev\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="invalidUserLogin[greshen13, parola](1)" classname="tests.InvalidUserLogin" time="5.209">
+    <system-out><![CDATA[All files are deleted in Directory: src\test\reports\
+All files are deleted in Directory: src\test\screenshots\
+1.Navigate to homepage
+2. Navigate to Login
+3. Check the correct url is opened
+4. Check that the sign in header is displayed
+5. enter invalid username
+6. Enter password
+7. Click sign in button
+8.Verify that an error appears
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 4431
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 20, 2023 7:15:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 109
+]]></system-err>
+  </testcase>
+  <testcase name="loginLogout[auto_user, auto_pass, auto_user](1)" classname="tests.LoginAndLogout" time="5.627">
+    <system-out><![CDATA[1.Navigate to homepage
+2. Navigate to Login
+3. Check the correct url is opened
+4. Check that the sign in header is displayed
+5. enter username
+6. Enter password
+7. Click sign in button
+8.Verify URL
+9.Navigate to profile page
+10. Verify the url
+11. Verify the username
+12. Click Logout button
+13. Verify you are sent to login page again
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 10584
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 20, 2023 7:15:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 109
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest[auto_user, auto_pass, auto_user](1)" classname="tests.LoginTest" time="5.948">
+    <system-out><![CDATA[1.Navigate to homepage
+2. Navigate to Login
+3. Check the correct url is opened
+4. Check that the sign in header is displayed
+5. enter username
+6. Enter password
+7. Click sign in button
+8.Verify URL
+9.Navigate to profile page
+10. Verify the url
+11. Verify the username
+]]></system-out>
+    <system-err><![CDATA[Apr 20, 2023 7:15:40 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 2516
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 20, 2023 7:15:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 109
+]]></system-err>
+  </testcase>
+  <testcase name="testCreatePost[auto_user, auto_pass, src\test\java\upload\pretty.jpg, caption](1)" classname="tests.PostsTest" time="6.674">
+    <system-out><![CDATA[1. Open homepage
+2. Login with existing user
+3. Go to profile page and get current post count
+4. Go to new post
+5. Upload a new picture
+6. Verify the image name is visible
+7. Verify the image name is correct
+8. Populate the post caption
+9. Click create post
+10. Verify the post number has increased
+11. Open the latest post
+12. Verify the post details
+]]></system-out>
+    <system-err><![CDATA[[1682007347.853][WARNING]: Processing messages while being disconnected
+[1682007347.853][SEVERE]: Unable to receive message from renderer
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 41366
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 20, 2023 7:15:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 109
+]]></system-err>
+  </testcase>
+  <testcase name="registerTest[sluchaen30, sluchaen30@abv.bg, parola123](1)" classname="tests.RegisterTest" time="5.621">
+    <system-out><![CDATA[1.Navigate to homepage
+2. Navigate to Login
+2. Navigate to Register
+3. Verify that the register url is opened
+4. Check that the sign up header is displayed
+5. Enter username
+6. Enter email
+6. Enter password
+6. Enter password
+7. Click sign in button
+8.Verify URL
+9.Navigate to profile page
+10. Verify the url
+11. Verify the username
+]]></system-out>
+    <system-err><![CDATA[Apr 20, 2023 7:15:55 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 6260
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 20, 2023 7:15:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 109
+]]></system-err>
+  </testcase>
+</testsuite>

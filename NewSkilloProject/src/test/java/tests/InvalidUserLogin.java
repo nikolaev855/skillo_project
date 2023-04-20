@@ -35,12 +35,12 @@ public class InvalidUserLogin {
     @DataProvider(name = "users")
     public Object[][] getUsers(){
         return new Object[][]{
-                {"greshen13", "auto_pass"}, //Enter auto_user in order to test the assert
+                {"greshen13", "parola"}, //Enter auto_user in order to test the assert
         };
 
     }
     @Test(dataProvider = "users")
-    public void loginTest(String usernameOrEmail, String password){
+    public void invalidUserLogin(String usernameOrEmail, String password){
         System.out.println("1.Navigate to homepage");
         HomePage homePage = new HomePage(driver);
         homePage.navigate();
